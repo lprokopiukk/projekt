@@ -1,63 +1,68 @@
 <!doctype html>
 <html lang="pl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Doświadczenia – Strona główna</title>
-  <meta name="description" content="Prosta strona edukacyjna: opis dwóch doświadczeń – chemicznego i fizycznego." />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Strona edukacyjna: dwa proste doświadczenia – chemiczne i fizyczne." />
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="container">
-    <h1>Doświadczenia: chemia i fizyka</h1>
+  <header class="header">
+  <div class="container header-inner">
+    <div class="brand">Doświadczenia</div>
     <nav>
       <a href="index.html" class="active">Strona główna</a>
-      <a href="doswiadczenie1.html">Doświadczenie 1</a>
-      <a href="doswiadczenie2.html">Doświadczenie 2</a>
+      <a href="doswiadczenie1.html" >Doświadczenie 1</a>
+      <a href="doswiadczenie2.html" >Doświadczenie 2</a>
     </nav>
-  </header>
+  </div>
+</header>
 
   <main class="container">
-    <h2>O stronie</h2>
-    <p>Ta strona prezentuje dwa proste i bezpieczne doświadczenia do wykonania w warunkach szkolnych lub domowych pod opieką dorosłych:</p>
-    <ul>
-      <li><strong>Doświadczenie 1 (chemia):</strong> Reakcja sody oczyszczonej z octem – powstawanie dwutlenku węgla i piana.</li>
-      <li><strong>Doświadczenie 2 (fizyka):</strong> Wahadło proste – pomiar okresu i zależność od długości.</li>
-    </ul>
-
-    <section class="card">
-      <h3>Co zawiera każda podstrona?</h3>
-      <ol>
-        <li>Listę materiałów.</li>
-        <li>Instrukcję krok po kroku.</li>
-        <li>Wyjaśnienie zjawiska (teoria w pigułce).</li>
-        <li>Bezpieczeństwo i utylizację.</li>
-        <li>Proponowaną tabelę wyników/obserwacji.</li>
-      </ol>
+    <section class="hero">
+      <h1>Doświadczenia: chemia i fizyka</h1>
+      <p>Przykładowe, bezpieczne eksperymenty z wyjaśnieniem zjawisk i tabelami obserwacji.</p>
+      <p style="margin-top:14px">
+        <a class="btn" href="doswiadczenie1.html">Zacznij: Reakcja sody z octem</a>
+      </p>
     </section>
 
-    <section class="card">
-      <h3>Uwagi autora</h3>
-      <ul>
-        <li>Zadbaj o <strong>porządek w plikach</strong> (małe litery, brak spacji w nazwach). Ta struktura jest gotowa do publikacji na GitHub Pages / Netlify / Neocities.</li>
-        <li>Jeśli nie masz własnych zdjęć, korzystaj z <em>placeholderów</em> w folderze <code>img/</code> lub usuń całe bloki <code>&lt;figure&gt;</code>.</li>
-        <li>Przed wysłaniem sprawdź działanie na telefonie – strona jest responsywna.</li>
-      </ul>
-    </section>
+    <div class="grid">
+      <section class="card">
+        <h3>Co znajdziesz?</h3>
+        <ol>
+          <li>Materiały i przebieg krok po kroku.</li>
+          <li>Teoria w pigułce – co się dzieje i dlaczego.</li>
+          <li>Bezpieczeństwo i porządek.</li>
+          <li>Propozycje obserwacji i tabel.</li>
+        </ol>
+      </section>
+      <section class="card">
+        <h3>Uwagi autora</h3>
+        <ul>
+          <li>Dbaj o czytelność i porządek w opisach.</li>
+          <li>Sprawdź podgląd na telefonie przed publikacją.</li>
+          <li>Obrazki możesz zastąpić własnymi fotografiami.</li>
+        </ul>
+      </section>
+      <section class="card">
+        <h3>Pytania na ocenę</h3>
+        <ul>
+          <li>Czy wymagana jest bibliografia / źródła?</li>
+          <li>Czy dodać multimedia (wideo, audio)?</li>
+          <li>Czy kolorystyka może być dostosowana do szkoły?</li>
+        </ul>
+      </section>
+    </div>
 
     <figure>
-      <img src="img/baner.png" alt="Baner: Doświadczenia chemiczne i fizyczne" />
-      <figcaption>Baner strony (grafika poglądowa).</figcaption>
+      <img src="img/baner-canva.png" alt="Baner strony – delikatny gradient"/>
+      <figcaption>Baner poglądowy – podmień na własny, jeśli chcesz.</figcaption>
     </figure>
-
-    <section class="card">
-      <h3>Pytania do nauczyciela/egzaminatora</h3>
-      <ul>
-        <li>Czy na egzaminie strona powinna zawierać <strong>dodatkowe elementy</strong> (np. formularz kontaktowy, multimedia)?</li>
-        <li>Czy wymagane są <strong>źródła bibliograficzne</strong> lub odnośniki do materiałów dydaktycznych?</li>
-        <li>Czy dopuszczalna jest <strong>niewielka modyfikacja kolorystyki</strong> dla lepszej czytelności?</li>
-      </ul>
-    </section>
   </main>
 
   <footer class="container">
