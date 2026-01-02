@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Doświadczenie 2 – Wahadło proste</title>
+  <meta name="description" content="Doświadczenie fizyczne: wahadło proste – pomiar okresu T i zależności od długości L." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Doświadczenia: chemia i fizyka</h1>
+    <nav>
+      <a href="index.html">Strona główna</a>
+      <a href="doswiadczenie1.html">Doświadczenie 1</a>
+      <a href="doswiadczenie2.html" class="active">Doświadczenie 2</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Doświadczenie 2: Wahadło proste</h2>
+
+    <figure>
+      <img src="img/wahadlo.png" alt="Ilustracja: wahadło na sznurku" />
+      <figcaption>Wahadło proste: ciężarek zawieszony na nici o długości L.</figcaption>
+    </figure>
+
+    <section class="card">
+      <h3>Materiał i sprzęt</h3>
+      <ul>
+        <li>Sztywna nić/sznurek (różne długości L)</li>
+        <li>Mały ciężarek (np. nakrętka, metalowa kulka)</li>
+        <li>Stoper (telefon), linijka/miarka</li>
+        <li>Stojak lub krawędź półki do zamocowania nici</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Przebieg doświadczenia</h3>
+      <ol>
+        <li>Przymocuj nić o długości L i zawieś ciężarek.</li>
+        <li>Odstaw wahadło o mały kąt (ok. 5–10°) i puść bez popychania.</li>
+        <li>Zmierz czas <strong>10 pełnych wahań</strong> (tam i z powrotem).</li>
+        <li>Oblicz okres <code>T = t / 10</code>. Powtórz dla różnych długości L.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h3>Wyjaśnienie (co się dzieje?)</h3>
+      <p>Okres drgań wahadła dla małych wychyleń opisuje wzór:</p>
+      <pre class="eq">T \u2248 2\u03C0 \u221A(L / g)</pre>
+      <p>
+        gdzie <em>L</em> to długość nici, a <em>g</em> – przyspieszenie ziemskie (~9,81 m/s²). Zależność nie zależy od masy ciężarka.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Propozycja tabeli pomiarów</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Długość L [m]</th>
+            <th>Liczba wahań N</th>
+            <th>Czas t [s]</th>
+            <th>Okres T = t/N [s]</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td></td><td>10</td><td></td><td></td></tr>
+          <tr><td></td><td>10</td><td></td><td></td></tr>
+          <tr><td></td><td>10</td><td></td><td></td></tr>
+        </tbody>
+      </table>
+      <p class="muted">Wskazówka: wykreśl wykres T w funkcji sqrt(L) – powinien być liniowy.</p>
+    </section>
+
+    <section class="card">
+      <h3>Bezpieczeństwo</h3>
+      <ul>
+        <li>Upewnij się, że mocowanie nici jest stabilne.</li>
+        <li>Nie huśtaj zbyt szeroko – unikaj uderzeń ciężarka o przedmioty.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>&copy; 2026 Doświadczenia – projekt edukacyjny</small>
+  </footer>
+</body>
+</html>
